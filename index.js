@@ -6,7 +6,7 @@ const tools =xBlog.tools
 const keyNotice = "tool_notice"
 
 // 添加卡片
-widget.addSide(false,"公告栏","index.html",function () {
+widget.addSide("公告栏","index.html",function () {
     return {
         notice: tools.getSetting(keyNotice),
     }
