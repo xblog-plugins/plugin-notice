@@ -13,6 +13,6 @@ widget.addSide("公告栏","index.html",function () {
 },true)
 
 // 添加设置信息
-widget.addSetting("公告栏设置",1,tools.getAdminPluginSetting([
+widget.addSetting("公告栏设置",1,[
     {title:"公告栏内容(支持html标签)",type: "text",key: keyNotice}
-]))
+])
